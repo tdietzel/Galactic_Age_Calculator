@@ -51,7 +51,14 @@ export class GalacticBirthday {
         pastYears.jupiter()
       );
     } else {
-      
+        let futureYears = new GalacticAge(Math.abs(this.age));
+        this.yearsToCome.push(
+          futureYears.earth(),
+          futureYears.mercury(),
+          futureYears.venus(),
+          futureYears.mars(),
+          futureYears.jupiter()
+        );
     }
   }
 }

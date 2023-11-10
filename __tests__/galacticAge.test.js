@@ -47,8 +47,8 @@ describe("Galactic Birthday", () => {
         expect(galacticBirthday.age).toEqual(13);
     });
 
-     // pastOrFuture
-     test("should create a pastOrFuture function that calculates years passed since birthday", () => {
+    // pastOrFuture
+    test("should create a pastOrFuture function that calculates years passed since birthday", () => {
         const galacticAge = new GalacticAge(56, 43);
         const galacticBirthday = new GalacticBirthday(galacticAge.birthday());
         galacticBirthday.pastOrFuture();
