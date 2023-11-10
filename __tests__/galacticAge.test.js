@@ -17,6 +17,7 @@ describe("Galactic Age", () => {
     });
     // mercury
     test("should create a Mercury function that changes age compared to Earth by 0.24 yrs / 1 year", () => {
+        galacticAge.age = 13;
         expect(galacticAge.mercuryAge).toEqual(41.66);
     });
 });

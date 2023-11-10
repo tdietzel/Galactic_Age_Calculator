@@ -10,6 +10,7 @@ export class GalacticAge {
   }
 
   mercury() {
-    return 0;
+    const mercuryAge = (1 / 0.24) * this.age;
+    return Math.floor(mercuryAge * 100) / 100;
   }
 }
