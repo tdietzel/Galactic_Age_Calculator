@@ -19,6 +19,7 @@ export class GalacticAge {
     return Math.floor(venusAge * 100) / 100;
   }
   mars() {
-    return 0;
+    const marsAge = (1 /1.88) * this.age;
+    return Math.floor(marsAge * 100) / 100;
   }
 }
