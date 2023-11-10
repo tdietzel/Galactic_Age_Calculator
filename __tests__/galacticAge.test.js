@@ -27,4 +27,8 @@ describe("Galactic Age", () => {
     test("should create a Mars function that changes age compared to Earth by 1.88 yrs / 1 year", () => {
         expect(galacticAge.marsAge).toEqual(5.31);
     });
+    // jupiter
+    test("should create a Mars function that changes age compared to Earth by 11.86 yrs / 1 year", () => {
+        expect(galacticAge.jupiterAge).toEqual(0.84);
+    });
 });
