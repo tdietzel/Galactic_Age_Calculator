@@ -5,4 +5,9 @@ describe("Galactic Age", () => {
         const galacticAge = new GalacticAge(10);
         expect(galacticAge.age).toEqual(10);
     });
+
+    test("should create an Earth function that assigns the age to Earth", () => {
+        const galacticAge = new GalacticAge(10);
+        expect(galacticAge.earthAge).toEqual(10);
+    });
 });
