@@ -1,5 +1,5 @@
 export class GalacticAge {
-    constructor() {
-    
-    }
+  constructor(age) {
+    this.age = age;
+  }
 }
