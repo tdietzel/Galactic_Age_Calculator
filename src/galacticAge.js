@@ -41,7 +41,14 @@ export class GalacticBirthday {
 
   pastOrFuture() {
     if (this.age > 0) {
-      return true;
+      let pastYears = new GalacticAge(this.age);
+      this.yearsPassed.push(
+        pastYears.earth(),
+        pastYears.mercury(),
+        pastYears.venus(),
+        pastYears.mars(),
+        pastYears.jupiter()
+      );
     }
   }
 }
