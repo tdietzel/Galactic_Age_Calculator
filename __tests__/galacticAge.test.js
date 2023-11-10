@@ -31,4 +31,10 @@ describe("Galactic Age", () => {
     test("should create a Mars function that changes age compared to Earth by 11.86 yrs / 1 year", () => {
         expect(galacticAge.jupiterAge).toEqual(0.84);
     });
+
+    // pastBirthday
+    test("should create a pastBirthday function that returns the difference between current age and bday year", () => {
+        const galacticAge = new GalacticAge(56, 43)
+        expect(galacticAge.pastBirthday).toEqual(13);
+    });
 });
