@@ -4,6 +4,7 @@ export class GalacticAge {
     this.earthAge = this.earth();
     this.mercuryAge = this.mercury();
     this.venusAge = this.venus();
+    this.marsAge = this.mars();
   }
 
   earth() {
@@ -16,5 +17,8 @@ export class GalacticAge {
   venus() {
     const venusAge = (1 / 0.62) * this.age;
     return Math.floor(venusAge * 100) / 100;
+  }
+  mars() {
+    return 0;
   }
 }

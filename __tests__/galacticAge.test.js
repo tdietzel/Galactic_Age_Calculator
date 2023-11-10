@@ -23,4 +23,8 @@ describe("Galactic Age", () => {
     test("should create a Venus function that changes age compared to Earth by 0.62 yrs / 1 year", () => {
         expect(galacticAge.venusAge).toEqual(16.12);
     });
+    // mars
+    test("should create a Mars function that changes age compared to Earth by 1.88 yrs / 1 year", () => {
+        expect(galacticAge.marsAge).toEqual(5.31);
+    });
 });
