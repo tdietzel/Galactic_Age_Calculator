@@ -1,4 +1,4 @@
-# *PROJECT NAME*
+# *Super Galactic Age Calculator*
 #### By Trent Dietzel
 
 ## Table of Contents
@@ -14,46 +14,55 @@
 - [Contact](#contact)
 
 ## About
-*ABOUT SECTION*
-
-The primary functionality of the application is *FILL IN*...:
-- 
-- 
-- 
+*The Super Galactic Age Calculator is a web application designed to calculate your age on different planets within our solar system. It provides accurate age conversions for Mercury, Venus, Mars, and Jupiter, allowing you to see how old you would be on these planets based on your Earth age. Additionally, the application determines the number of Earth years since or until your last or upcoming birthday, providing a comprehensive view of your age in various contexts.*
 
 ## Demo
-You can try out the live demo of *PROJECT NAME* [here](https://tdietzel22.github.io/Mr_Robo_Neighborhood/).
+You can try out the live demo of *Super Galactic Age Calculator* [here](https://tdietzel22.github.io/Super_Galactic_Age_Calculator/).
 
 ## Technologies Used
-- HTML
-- CSS
-- JavaScript
+ - HTML
+ - CSS
+ - JavaScript
+ - NPM (Node Package Manager): *for package management*
+ - Lint: *for code quality and style checking*
+ - Webpack: *for bundling and building the project*
+ - Jest: *for testing the JavaScript code*
 
 ## Features
-- **FEATURE**: 
-- **FEATURE**: 
+- **Age Conversion**: Calculate your age on Mercury, Venus, Mars, and Jupiter.
+- **Birthday Countdown**: Determine the number of Earth years since or until your last or upcoming birthday.
 
 ## Installation
 
 Follow these steps to set up the project locally:
-1. Open Git BASH [Download Link](https://gitforwindows.org/)
-2. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/yourusername/*PROJECT_NAME*.git
-3. Open the project directory:
-   ```bash
-   cd *PROJECT NAME*
-4. Open the __index.html__ file in your web browser or use a code editor like __Visual Studio Code__ for further development.
+#### 1. Install Node.js and NPM:
+   - If you don't have Node.js and NPM installed, download and install them from the [official website](https://nodejs.org/).
+   - Follow the installation instructions for your operating system.
 
+#### 2. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/tdietzel22/Galactic_Age_Calculator.git
+   ```
+#### 3. Change to the project directory and open in a code editor like Visual Studio:
+   ```bash
+   cd Galactic_Age_Calculator
+   ```
+#### 4. Install project dependencies using NPM:
+   ```bash
+   npm install
+   ```
+*This command will download and install the necessary packages specified in the **package.json** file.*
+#### 5. To view in the browser or for further development, use the following command:
+   ```bash
+   npm run start
+   ```
 ## Usage
 
-To use *PROJECT NAME*:
+To use **Galactic_Age_Calculator**:
 1. Visit the website [Here](https://tdietzel22.github.io/*PROJECT_NAME*/).
-2. 
-3. 
-4. 
-5. 
-6. 
+2. Enter your age and birth year.
+3. View your age on Mercury, Venus, Mars, and Jupiter.
+4. Find out how many Earth years have passed or are remaining until your last or upcoming birthday.
 
 ## Contributing
 
