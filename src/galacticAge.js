@@ -34,7 +34,14 @@ export class GalacticAge {
 }
 
 export class GalacticBirthday {
-    constructor(age) {
-        this.age = age;
+  constructor(age) {
+    this.age = age;
+    this.yearsPassed = [];
+  }
+
+  pastOrFuture() {
+    if (this.age > 0) {
+      return true;
     }
+  }
 }
