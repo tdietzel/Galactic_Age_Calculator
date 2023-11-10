@@ -54,4 +54,10 @@ describe("Galactic Birthday", () => {
         galacticBirthday.pastOrFuture();
         expect(galacticBirthday.yearsPassed).toEqual([13, 54.16, 20.96, 6.91, 1.09]);
     });
+    test("should calculate yearsToCome if its in the future", () => {
+        const galacticAge = new GalacticAge(56, 61);
+        const galacticBirthday = new GalacticBirthday(galacticAge.birthday());
+        galacticBirthday.pastOrFuture();
+        expect(galacticBirthday.yearsToCome).toEqual([5, 20.83, 8.06, 2.65, 0.42]);
+    });
 });

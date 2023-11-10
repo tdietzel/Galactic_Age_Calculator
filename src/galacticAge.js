@@ -37,6 +37,7 @@ export class GalacticBirthday {
   constructor(age) {
     this.age = age;
     this.yearsPassed = [];
+    this.yearsToCome = [];
   }
 
   pastOrFuture() {
@@ -49,6 +50,8 @@ export class GalacticBirthday {
         pastYears.mars(),
         pastYears.jupiter()
       );
+    } else {
+      
     }
   }
 }
