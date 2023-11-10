@@ -7,9 +7,8 @@ export class GalacticAge {
     this.venusAge = this.venus();
     this.marsAge = this.mars();
     this.jupiterAge = this.jupiter();
-    this.pastBirthday = this.pastBirthday();
   }
-
+  
   earth() {
     return this.age;
   }
@@ -22,14 +21,14 @@ export class GalacticAge {
     return Math.floor(venusAge * 100) / 100;
   }
   mars() {
-    const marsAge = (1 /1.88) * this.age;
+    const marsAge = (1 / 1.88) * this.age;
     return Math.floor(marsAge * 100) / 100;
   }
   jupiter() {
-    const jupiterAge = (1 /11.86) * this.age;
+    const jupiterAge = (1 / 11.86) * this.age;
     return Math.floor(jupiterAge * 100) / 100;
   }
-  pastBirthday() {
+  birthday() {
     return this.age - this.birthdayYear;
   }
 }
