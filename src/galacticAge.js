@@ -1,6 +1,7 @@
 export class GalacticAge {
-  constructor(age) {
+  constructor(age, birthday) {
     this.age = age;
+    this.birthdayYear = birthday;
     this.earthAge = this.earth();
     this.mercuryAge = this.mercury();
     this.venusAge = this.venus();
@@ -29,6 +30,6 @@ export class GalacticAge {
     return Math.floor(jupiterAge * 100) / 100;
   }
   pastBirthday() {
-    return 0;
+    return this.age - this.birthdayYear;
   }
 }
