@@ -1,4 +1,4 @@
-import {GalacticAge} from "../src/galacticAge.js"
+import {GalacticAge, GalacticBirthday} from "../src/galacticAge.js"
 
 describe("Galactic Age", () => {
     let galacticAge;
@@ -34,7 +34,16 @@ describe("Galactic Age", () => {
 
     // birthday
     test("should create a birthday function that returns the difference between current age and bday year", () => {
-        const galacticAge = new GalacticAge(56, 43)
+        const galacticAge = new GalacticAge(56, 43);
         expect(galacticAge.birthday()).toEqual(13);
+    });
+});
+
+describe("Galactic Birthday", () => {
+    // constructor
+    test("should create a GalacticAge class that takes in the age difference between current age & birthday as age", () => {
+        const galacticAge = new GalacticAge(56, 43);
+        const galacticBirthday = new GalacticBirthday(galacticAge.birthday());
+        expect(galacticBirthday.age).toEqual(13);
     });
 });

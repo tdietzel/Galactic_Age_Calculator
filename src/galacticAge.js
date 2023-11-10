@@ -32,3 +32,6 @@ export class GalacticAge {
     return this.age - this.birthdayYear;
   }
 }
+
+export class GalacticBirthday {
+}
