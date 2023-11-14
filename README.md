@@ -17,7 +17,7 @@
 *The Super Galactic Age Calculator is a web application designed to calculate your age on different planets within our solar system. It provides accurate age conversions for Mercury, Venus, Mars, and Jupiter, allowing you to see how old you would be on these planets based on your Earth age. Additionally, the application determines the number of Earth years since or until your last or upcoming birthday, providing a comprehensive view of your age in various contexts.*
 
 ## Demo
-You can try out the live demo of *Super Galactic Age Calculator* [here](https://tdietzel22.github.io/Super_Galactic_Age_Calculator/).
+You can try out the live demo of *Super Galactic Age Calculator* [here](https://tdietzel22.github.io/Super_Galactic_Age_Calculator/) *(Not working)*.
 
 ## Technologies Used
  - HTML
@@ -59,8 +59,8 @@ Follow these steps to set up the project locally:
 ## Usage
 
 To use **Galactic_Age_Calculator**:
-1. Visit the website [Here](https://tdietzel22.github.io/*PROJECT_NAME*/).
-2. Enter your age and birth year.
+1. Visit the website [Here](https://tdietzel22.github.io/*PROJECT_NAME*/) *(Not working)*.
+2. Enter your age and birthday year you want to explore.
 3. View your age on Mercury, Venus, Mars, and Jupiter.
 4. Find out how many Earth years have passed or are remaining until your last or upcoming birthday.
 
@@ -76,7 +76,7 @@ I welcome contributions to improve the project. If you'd like to contribute, ple
 
 ## Known Bugs
 
-* _N/A_
+* _No UI implemented yet_
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
