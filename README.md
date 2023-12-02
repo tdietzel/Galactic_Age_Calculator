@@ -54,7 +54,7 @@ Follow these steps to set up the project locally:
 *This command will download and install the necessary packages specified in the **package.json** file.*
 #### 5. To view in the browser or for further development, use the following command:
    ```bash
-   npm run start
+   npm run test
    ```
 ## Usage
 
